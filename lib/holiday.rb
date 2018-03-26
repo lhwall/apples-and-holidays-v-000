@@ -69,7 +69,7 @@ holiday_hash.each do |season, holidays|
       stuff.each do |item| 
         item.split("_").each do |x|
         x.capitalize!
-      end).join(" ")
+      end
        end
            puts "  #{holiday_name}: #{stuff.join(", ")}"
    end
